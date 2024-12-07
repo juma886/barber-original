@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.aboutcontent{
+    width: 105%;
+    height: 100vh;
+    background: linear-gradient(rgba(111, 223, 238, 0.322) ,rgb(1, 58, 77)),url(30.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.contents{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.contents h3{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.data2, .data1,.data3{
+    padding: 200px 20px;
+    color: rgb(216, 203, 203);
+    padding: 100px 20px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.data2 {
+    text-align: justify;
+}
+.data1{
+    text-align: left;
+}
+.data3 {
+    text-align: right;
+}
+
+.mealso{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.ualso{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: absolute;
+   top: 90%;
+    left: 45%;
+    transition: ease-in-out .8s;
+}
+.mylogo:hover{
+    transform: translateY(-10px);
+}
+
